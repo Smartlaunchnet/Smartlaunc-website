@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/notebook.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Notebook Store</title>
+</head>
+
+<body>
+
+<header>
+  <div class="home-notebook">
+    <div>
+      <a href="index.html">
+        <button class="home-button">Home</button>
+      </a> 
+    </div>
+
+    <div>
+      <section class="notebook-title">
+        <span>Notebook Pages</span>
+      </section>
+    </div>
+  </div>
+</header>
+
+<div class="div-overall">
+
+  <div class="photo-box">
+
+    <!-- First Product -->
+    <img class="Agenda-1" src="images/notebook/agenda 1.jpg" alt="Agenda">
+    <button class="order-now" onclick="confirmOrder()">Order Now</button>
+
+    <!-- Second Product -->
+    <img class="agenda-3" src="images/agenda 3.jpg" alt="Agenda">
+    <button class="order-now" onclick="confirmOrder()">Order Now</button>
+
+  </div>
+
+  <div class="div-description">
+    <h3 class="Product-description2">Product Description</h3>
+
+    <p class="paragraph-d1">
+      Compact <strong>A5 Agenda</strong> designed for daily planning, note-taking, and task management.
+      Lightweight and portable, perfect for students and professionals.
+      Includes clear layouts for weekly and monthly organization.
+      Durable cover for long-lasting use.
+    </p>
+
+    <!-- Offer Button -->
+    <button onclick="showOffer()">View Special Offer</button>
+
+    <!-- Video Section -->
+    <div class="video-containerall">
+      <div onclick="playVideo()" class="video-container">
+        <img src="images/notebook/note.jpg" alt="Agenda Video" class="video-thumbnail">
+        <span class="play-button">▶</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ✅ JAVASCRIPT START -->
+<script>
+
+function confirmOrder() {
+  let result = confirm("Do you want to order this notebook?");
+
+  if (result) {
+    alert("Redirecting you to WhatsApp to complete your order...");
+    window.location.href = "https://wa.me/250788684603?text=Hello, I want to order a notebook";
+  }
+}
+
+function showOffer() {
+  document.querySelector(".paragraph-d1").innerHTML =
+    "🔥 Special Offer! Order now and get fast delivery in Kigali. Limited stock available!";
+}
+
+function playVideo() {
+  document.querySelector(".video-containerall").innerHTML = `
+    <video controls autoplay width="300">
+      <source src="video/video1.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+  `;
+}
+
+</script>
+<!-- ✅ JAVASCRIPT END -->
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family:"popins",sans-serif;
+    padding-bottom: 600px;
+}
+.logo-home{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+     width: 600px;
+     align-items: center;
+}
+.smart-homebutton{
+    width: 500px;
+    align-items: center;
+}
+.home-notebook{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+.div-overall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.div-description{
+     display: flex;
+     padding-left:-20px;
+}
+
+.Product-description2{
+    color: rgb(0, 27, 87);
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+.paragraph-d1{
+    font-size: 17px;
+    margin-left: 10px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 55px;
+    margin-right: 10px;
+}
+.video-containerall{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.video-container {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: black;
+  border: black;
+}
+
+/* Hover zoom effect */
+.video-container:hover {
+  transform: scale(1.05);
+}
+
+.video-thumbnail {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+ 
+}
+
+/* Play button style */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for play button */
+.video-container:hover .play-button {
+  background: red;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+   
+.cart-now{
+    background-color: rgb(54, 170, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    display: block;
+    padding-bottom: 10px;
+}
+.maintanance-service{
+    color: blue;
+    text-align: center;
+
+}
+.maintenance-descrip{
+   font-size: 20px;
+   margin-left: 10px;
+   line-height: 25px; 
+   align-items: center;
+   text-align: justify;
+   width: 620px;
+
+}
+.printer-maint{
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+  
+}
+.printer1{
+    width: 150px;
+     margin-right: 20px;
+}
+.maintanance-photo{
+    display: flex;
+    padding-left: 10px;
+    text-align: justify;
+    justify-self: center;
+    height:fit-content;
+}
+.printer-pragraphy{
+   margin-bottom: 10px;  
+   align-items: center;
+   color: rgb(26, 25, 25);
+  
+}
+.photo-box{
+    text-align: center;
+}
+.notebook-title {
+    padding-right: 500px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+     cursor: pointer;
+}
+.home-button{
+    background-color: brown;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border:none;
+    border-radius: 20px;
+    margin-left: 15px;
+    padding-left: 5px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+}
+.home-button:hover{
+    color: rgb(95, 61, 243);
+}
+.product-photo {
+    background-color: rgb(73, 73, 73);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-bottom: 50px;
+}
+.order-now{
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(53, 53, 53);
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.Agenda-1{
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.agenda-3 {
+    width: 150px;
+    border-radius: 5px;
+}
+.top-dealagenda{
+    color: white;
+    background-color: rgb(101, 101, 255);
+    text-align: center;
+    height: 100px;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom:30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.button-deal{
+font-size: 18px;
+border: none;
+color: rgb(57, 58, 58);
+background:none;
+border-radius: 20px;
+cursor: pointer;
+}
+.button-deal:hover{
+    text-decoration: underline;
+    color: rgb(2, 53, 221);
+    transition: ease;
+    font-weight:bold;
+}
+
+.button-deals{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 0px;  
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+
