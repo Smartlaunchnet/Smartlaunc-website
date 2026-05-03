@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.body-website{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 a{
   text-decoration: none;
 }
@@ -158,6 +162,24 @@ body {
   100% {
     transform: translateX(-100%);
   }
+}
+.button-deals{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 0px;  
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.button-deal{
+font-size: 18px;
+border: none;
+color: rgb(57, 58, 58);
+background:none;
+border-radius: 20px;
+cursor: pointer;
 }
 .subtitle {
   font-size: 20px;
