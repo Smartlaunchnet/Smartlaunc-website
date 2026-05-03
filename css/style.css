@@ -166,7 +166,7 @@ body {
 .button-deals {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
   margin-top: 20px;
   flex-direction:row;
   justify-content: center;
@@ -175,7 +175,7 @@ body {
 .button-deal {
   padding: 10px 15px;
   background: #007bff;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 8px;
   font-size: 14px;
@@ -184,7 +184,7 @@ body {
 }
 
 .button-deal:hover {
-  background: #0056b3;
+  background: #f13a3a;
   color: white;
 }
 .subtitle {
