@@ -163,23 +163,25 @@ body {
     transform: translateX(-100%);
   }
 }
-.button-deals{
-   display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    margin-top: 0px;  
-    margin-left: 10px;
-    margin-right: 10px;
+.button-deals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.button-deal{
-font-size: 18px;
-border: none;
-color: rgb(57, 58, 58);
-background:none;
-border-radius: 20px;
-cursor: pointer;
+
+.button-deal {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.button-deal:hover {
+  background: #0056b3;
 }
 .subtitle {
   font-size: 20px;
