@@ -247,30 +247,28 @@ margin-top: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.button-deal{
-font-size: 18px;
-border: none;
-color: rgb(101, 104, 104);
-background:none;
-border-radius: 20px;
-cursor: pointer;
-}
-.button-deal:hover{
-    text-decoration: underline;
-    color: rgb(2, 53, 221);
-    transition: ease;
-    font-weight:bold;
+.button-deals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 20px;
+  flex-direction:row;
+  justify-content: center;
 }
 
-.button-deals{
-   display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    margin-top: 0px;  
-    margin-left: 10px;
-    margin-right: 10px;
+.button-deal {
+  padding: 10px 15px;
+  background: #007bff;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  display: inline-block;
+  transition: 0.3s;
 }
 
+.button-deal:hover {
+  background: #f13a3a;
+  color: white;
+}
 
