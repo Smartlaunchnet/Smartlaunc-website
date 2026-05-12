@@ -25,12 +25,12 @@
 }
 .all-button {
   display: inline-block;
-  animation:moveleft 3s linear infinite;
+  animation:moveleft 2s linear infinite;
   font-size: 20px;
 }
 
 @keyframes moveleft {
-  5% {
+  0% {
     transform: translateX(0%);
   }
   100% {
