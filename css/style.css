@@ -164,7 +164,7 @@ background-color:red;
 
 .logo span {
   display: inline-block;
-  animation: scrollText 10s linear infinite;
+  animation: scrollText 0s linear infinite;
   font-size: 30px;
 }
 
