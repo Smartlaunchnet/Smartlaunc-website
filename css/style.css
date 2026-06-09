@@ -179,7 +179,7 @@ background-color:red;
 .welcome {
   overflow: hidden;
   white-space: nowrap;
-  background: #685fe9;
+  background: #ffffff;
   padding: 10px 0;
 }
 
@@ -188,7 +188,7 @@ background-color:red;
   color: #ff0000;
   font-weight: bold;
   text-decoration: none;
-  animation: scrollText 30s linear infinite;
+  animation: scrollText 15s linear infinite;
 }
 
 .welcome a:hover {
