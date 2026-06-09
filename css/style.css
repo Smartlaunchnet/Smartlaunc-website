@@ -176,20 +176,41 @@ background-color:red;
     transform: translateX(100%);
   }
 }
-.welcome span {
-  display: inline-block;
-  animation:movelight 35s linear infinite;
-  font-size: 20px;
-  color: #ffd000;
+.welcome {
+  overflow: hidden;
+  white-space: nowrap;
+  background: #685fe9;
+  padding: 10px 0;
 }
 
-@keyframes movelight {
-  0% {
-    transform: translateX(0%);
+.welcome a {
+  display: inline-block;
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+  animation: scrollText 30s linear infinite;
+}
+
+.welcome a:hover {
+  animation-play-state: paused;
+  text-decoration: underline;
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(70%);
   }
-  100% {
-    transform: translateX(-100%);
+  to {
+    transform: translateX(-70%);
   }
+}
+.apply-btn{
+  background:#28a745;
+  color:white;
+  padding:6px 12px;
+  border-radius:4px;
+  text-decoration:none;
+  margin-left:10px;
 }
 .button-deals {
   display: flex;
