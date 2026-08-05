@@ -1,0 +1,176 @@
+/* PRINTERS PAGE */
+
+.products-page{
+    width:90%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+
+.products-page h2{
+    color:#1677ff;
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+
+
+/* Printer product grid */
+
+.products-page .product-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+
+
+/* Product cards */
+
+.products-page .card{
+    background:#ffffff;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:15px;
+    text-align:center;
+    transition:0.3s;
+}
+
+
+.products-page .card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+
+
+.products-page .card img{
+    width:100%;
+    height:200px;
+    object-fit:contain;
+}
+
+
+
+/* Product name */
+
+.products-page .card h3{
+    font-size:17px;
+    min-height:50px;
+    margin:15px 0;
+}
+
+
+
+/* Price */
+
+.products-page .price{
+    color:#e65100;
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+
+/* Labels */
+
+.products-page .card span{
+    display:inline-block;
+    background:#1677ff;
+    color:white;
+    padding:6px 12px;
+    border-radius:5px;
+    font-size:13px;
+    margin:10px 0;
+}
+
+
+
+/* Buy button */
+
+.products-page .card button{
+    width:100%;
+    padding:12px;
+    background:#1677ff;
+    border:none;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+
+.products-page .card button:hover{
+    background:#004bb5;
+}
+
+
+
+/* Printing service section */
+
+.supplier{
+    width:90%;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    text-align:center;
+    border-radius:10px;
+}
+
+
+.supplier h2{
+    color:#1677ff;
+}
+
+
+.supplier-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:25px;
+}
+
+
+.supplier-box div{
+    width:280px;
+    padding:25px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+
+.supplier-box h3{
+    color:#1677ff;
+}
+
+
+
+
+/* Mobile */
+
+@media(max-width:1000px){
+
+.products-page .product-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+
+.supplier-box{
+    flex-direction:column;
+    align-items:center;
+}
+
+}
+
+
+
+@media(max-width:600px){
+
+.products-page .product-grid{
+    grid-template-columns:1fr;
+}
+
+
+}

@@ -72,15 +72,25 @@ border-radius: 20px;
 margin-bottom: 10px;
 width: 120px;
 height: 30px;
-color: rgb(0, 0, 0);
+color: rgb(163, 0, 0);
 font-size: 15px;
 border-width: 2px;
 border-style: solid;
 cursor: pointer;
 font-weight: bold;
-font-size: 13px;
+font-size: 15px;
+border: none;
 
 }
 .price-unit:hover{
     background-color: rgb(255, 147, 147);
+}
+.price-edit{
+    font-family:Tahoma;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.price-editdiv{
+ text-align: center;
 }

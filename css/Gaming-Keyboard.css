@@ -1,0 +1,106 @@
+/* GAMING KEYBOARD PAGE */
+
+.products-page{
+    width:90%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+
+.products-page h2{
+    color:#1677ff;
+    margin-bottom:25px;
+    font-size:30px;
+}
+
+/* Product grid */
+
+.products-page .product-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+
+
+/* Product cards */
+
+.products-page .card{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:15px;
+    text-align:center;
+    transition:0.3s;
+}
+
+
+.products-page .card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+.products-page .card img{
+    width:100%;
+    height:200px;
+    object-fit:contain;
+}
+.products-page .card h3{
+    font-size:17px;
+    min-height:45px;
+}
+
+
+.products-page .price{
+    color:#e65100;
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+.products-page .card span{
+    background:#33c226;
+    color:white;
+    padding:5px 12px;
+    border-radius:5px;
+    display:inline-block;
+    margin:10px 0;
+}
+
+
+.products-page .card button{
+    width:100%;
+    padding:12px;
+    background:#1677ff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+
+.products-page .card button:hover{
+    background:#004bb5;
+}
+
+
+
+/* Mobile */
+
+@media(max-width:1000px){
+
+.products-page .product-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+
+@media(max-width:600px){
+
+.products-page .product-grid{
+    grid-template-columns:1fr;
+}
+
+}
