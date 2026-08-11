@@ -220,6 +220,7 @@ background-color:red;
   margin-top: 20px;
   flex-direction:row;
   justify-content: center;
+  
 }
 
 .button-deal {
@@ -231,6 +232,7 @@ background-color:red;
   font-size: 14px;
   display: inline-block;
   transition: 0.3s;
+
 }
 
 .button-deal:hover {
@@ -262,10 +264,10 @@ background-color:red;
   margin: 0 15px;
   font-weight: bold;
   transition: 0.7s;
-  font-size: 20px;
-  border-radius: 20px;
+  font-size: 22px;
+  border-radius: 10px;
   background-color: #7d47e2;
-  width: 180px;
+  width: 120px;
   border-style: solid;
   border: none;
   padding-top: 0px;
